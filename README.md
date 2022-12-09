@@ -1,13 +1,13 @@
 ## Tools
 
 ### 
-- [Virutoso]()
+- [Virutoso](https://github.com/Nived151/VLSI_tools#virtuoso-tutorial)
 ###
- - [PrimeTime]()
+ - [PrimeTime](https://github.com/Nived151/VLSI_tools#primetime-tutorial)
 ### 
 - [Innovus]()
 ### 
-- [PrimeLib]()
+- [PrimeLib](https://github.com/Nived151/VLSI_tools#primelib-tutorial)
 ### 
 - [Design Vision]()
 ### 
@@ -16,7 +16,7 @@
 <br/>
 <br/>
 
-#  Virtuoso [Tutorial](personal.utdallas.edu/~xxx110230/gf65/)
+#  Virtuoso [Tutorial](https://personal.utdallas.edu/~xxx110230/gf65/)
 <br/>
 
 ```
@@ -37,15 +37,15 @@ virtuoso &
 <br/>
 
 ```
-cd ~/cad/gf65
+cd ~/cad/primetime
 ```
 
 ```
-. /proj/cad/startup/profile.ee7325
+. /proj/cad/startup/profile.synopsys_2018
 ```
 
 ```
-virtuoso &
+pt_shell -f primetime.script
 ```
 <br/>
 <br/>
@@ -123,3 +123,22 @@ characterize
 ```
 model
 ```
+<br/>
+<br/>
+
+#  Design Vision [Tutorial](personal.utdallas.edu/~xxx110230/gf65/)
+<br/>
+
+```
+cd ~/cad/gf65
+```
+
+```
+. /proj/cad/startup/profile.ee7325
+```
+
+```
+virtuoso &
+```
+<br/>
+<br/>
