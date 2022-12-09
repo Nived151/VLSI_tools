@@ -84,14 +84,14 @@ primelib
 ```
 create -legacy INV
 ```
-In Config File - Replace Configure.tcl
+In Config File - Replace [Configure.tcl](https://github.com/Nived151/VLSI_tools/blob/main/configure.tcl)
 
 In netlist file - Transfer the following files 
 -  INV.pex.sp,
 - INV.pex.sp.pex
 - INV.pex.sp.INV.pxi
 
-In Control File - Replace INV.inst / DFF.inst
+In Control File - Replace [INV.inst](https://github.com/Nived151/VLSI_tools/blob/main/INV.inst) / [DFF.inst](https://github.com/Nived151/VLSI_tools/blob/main/DFF.inst)
 
 change  (remember to replace vdd! To VDD, and gnd! to
 VSS before copying the files)
