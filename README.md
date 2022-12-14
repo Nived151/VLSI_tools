@@ -7,6 +7,11 @@ source /proj/ndl/home/vks160030/GF65_6325/setup-GF65-cad
 <br/>
 <br/>
 
+copy
+```
+cp -r <source_name> <destination_folder>
+```
+
 [Library Compiler](https://personal.utdallas.edu/~Xiangyu.Xu/lc/) ( .lib ---> .db )
 
 ```
