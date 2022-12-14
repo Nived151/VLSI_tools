@@ -98,5 +98,63 @@ mkdir primelib_gf65
 ```
 cd primelib_gf65
 ```
+
+```
+create -legacy INV
+```
+
+```
+• NAND2: OUT {(!(A&B))}
+• NOR2: OUT {(!(A+B))}
+• XOR2: OUT {(((!A)&B)+((!B)&A))}
+• MUX2:1: OUT {(((!S)&A)+(S&B))}
+• AOI21: OUT {(!((A&B)+(C)))}
+• OAI22: OUT {(!((A+B)&(C+D)))}
+• AOAI211: OUT {(!(((A&B)+C)&(D)))}
+```
+
+
+```
+set_location INV
+```
+
+```
+configure
+```
+```
+characterize
+```
+```
+model
+```
+
+[Prime Time](https://personal.utdallas.edu/~Xiangyu.Xu/primetime/)
+
+```
+cd ~/cad/primetime
+```
+```
+pt_shell -f primetime.script
+```
+[Virtuoso](https://personal.utdallas.edu/~Xiangyu.Xu/gf65/)
+
+```
+cd ~/cad/gf65
+```
+```
+. /proj/cad/startup/profile.ee7325
+```
+```
+virtuoso &
+```
+
+
+
+
+
+
+
+
+
 <br/>
 <br/>
