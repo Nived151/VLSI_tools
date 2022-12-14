@@ -82,4 +82,21 @@ hspice YOUR_SPICE_FILE.sp > YOUR_SPICE_FILE.out
 wv&
 ```
 <br/>
+
+[PrimeLib](https://github.com/Nived151/VLSI_tools/blob/main/PrimeLib%20by%20Synopsys.pdf)
+
+- create a folder "gf65" inside cad
+
+```
+/proj/cad/startup/setup-gf65_lpe.ic-6
+```
+
+```
+mkdir primelib_gf65
+```
+
+```
+cd primelib_gf65
+```
+<br/>
 <br/>
